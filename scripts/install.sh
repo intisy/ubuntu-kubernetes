@@ -9,7 +9,6 @@ echo2() {
 }
 
 echo2 "Setting up using options: $@"
-sudo bash kubernetes-center/run.sh repo=ubuntu-kubernetes action=deinstall pat=$pat sha=$sha
 echo2 "Installing Ubuntu"
 kubectl apply -f - <<OEF
 apiVersion: apps/v1
