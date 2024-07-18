@@ -15,7 +15,7 @@ kubectl apply -f - <<OEF
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: ubuntu-deployment
+  name: ubuntu
   labels:
     app: ubuntu
 spec:
