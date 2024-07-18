@@ -32,4 +32,3 @@ spec:
         image: ubuntu:latest
         command: ["sleep", "infinity"]
 OEF
-fi
