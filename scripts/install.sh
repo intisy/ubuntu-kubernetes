@@ -29,6 +29,6 @@ spec:
     spec:
       containers:
       - name: ubuntu
-        image: ubuntu:latest
+        image: ubuntu:22.04
         command: ["sleep", "infinity"]
 OEF
